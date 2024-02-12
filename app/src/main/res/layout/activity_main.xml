@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/txtGen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Generator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+         />
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGen"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:textSize="70sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        />
+    
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtDisplay"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="click me"
+        android:elevation="25dp"
+
+        />
+
+</RelativeLayout>
